@@ -11,40 +11,40 @@ import { Component } from '@angular/core';
 export class MenuComponent {
   menuItems = [
     {
-      title: 'Espresso',
+      title: 'Paquete 1',
       priceUSD: 3.5,
       priceRD: 196,
-      image: 'assets/logo.jpeg',
+      image: 'assets/1.jpg',
     },
     {
-      title: 'Cappuccino',
+      title: 'Paquete 2',
       priceUSD: 3.5,
       priceRD: 196,
-      image: 'assets/logo.jpeg',
+      image: 'assets/2.jpg',
     },
     {
-      title: 'Latte',
+      title: 'Paquete 3',
       priceUSD: 3.5,
       priceRD: 196,
-      image: 'assets/logo.jpeg',
+      image: 'assets/3.jpg',
     },
     {
-      title: 'Latte',
+      title: 'Paquete 4',
       priceUSD: 3.5,
       priceRD: 195,
-      image: 'assets/logo.jpeg',
+      image: 'assets/4.jpg',
     },
     {
-      title: 'Latte',
+      title: 'Paquete 5',
       priceUSD: 3.5,
       priceRD: 196,
-      image: 'assets/logo.jpeg',
+      image: 'assets/5.jpg',
     },
     {
-      title: 'Latte',
+      title: 'Paquete 6',
       priceUSD: 3.5,
       priceRD: 196,
-      image: 'assets/logo.jpeg',
+      image: 'assets/6.jpg',
     },
   ];
 }
