@@ -16,8 +16,13 @@
   transition: transform 0.2s;
 }
 
-.price {
+.price-usa {
   color: green;
+  font-weight: bold;
+}
+
+.price-rd {
+  color: #ffb5b5;
   font-weight: bold;
 }
 
@@ -48,12 +53,12 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .menu-item {
-    width: calc(50% - 20px); /* 2 items per row */
+    width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 480px) {
   .menu-item {
-    width: 100%; /* 1 item per row on very small screens */
+    width: 100%;
   }
 }

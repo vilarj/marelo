@@ -4,12 +4,12 @@
     <div class="menu-item-info">
       <h3 class="menu-item-title">{{ item.title }}</h3>
       <p class="menu-item-price">
-        <span class="price">{{
+        <span class="price-usa">{{
           item.priceUSD | currency : "USD" : "symbol"
         }}</span>
         /
-        <span class="price">{{
-          item.priceRD | currency : "DOP" : "symbol"
+        <span class="price-rd">{{
+          item.priceRD | currency : "RD$" : "symbol"
         }}</span>
       </p>
     </div>
