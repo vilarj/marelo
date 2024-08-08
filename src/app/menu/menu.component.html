@@ -1,0 +1,17 @@
+<div class="menu-container">
+  <div class="menu-item" *ngFor="let item of menuItems">
+    <img [src]="item.image" alt="{{ item.title }}" class="menu-item-image" />
+    <div class="menu-item-info">
+      <h3 class="menu-item-title">{{ item.title }}</h3>
+      <p class="menu-item-price">
+        <span class="price">{{
+          item.priceUSD | currency : "USD" : "symbol"
+        }}</span>
+        /
+        <span class="price">{{
+          item.priceRD | currency : "DOP" : "symbol"
+        }}</span>
+      </p>
+    </div>
+  </div>
+</div>
