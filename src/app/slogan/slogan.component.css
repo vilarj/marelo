@@ -1,0 +1,46 @@
+.slogan-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark text for contrast */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #333; /* Adjust color if needed */
+  width: 0;
+  background: rgba(255, 255, 255, 0.8); /* Light background with opacity */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  animation: typing 3.5s steps(40, end) forwards,
+    remove-caret 0.1s forwards 3.6s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes remove-caret {
+  from {
+    border-right: 4px solid #333;
+  }
+  to {
+    border-right: none;
+  }
+}
+
+.slogan-marelo {
+  color: #ffb5b5;
+}
+
+@media (max-width: 600px) {
+  .slogan-text {
+    font-size: 18px;
+    white-space: normal;
+    width: 100%;
+    border-right: 4px solid #333; /* Adjust color if needed */
+  }
+}
