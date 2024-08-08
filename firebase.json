@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/marelo",
+    "public": "dist/marelo/browser",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
