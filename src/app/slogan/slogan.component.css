@@ -34,4 +34,11 @@
     font-size: 18px;
     width: 100%;
   }
+
+  @media (max-width: 400px) {
+    .slogan-text {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
 }
