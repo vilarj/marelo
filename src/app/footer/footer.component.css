@@ -26,11 +26,20 @@
   color: white;
 }
 
-i {
+#instagram {
   font-size: 24px;
   color: black;
 }
 
-i:hover {
+#instagram:hover {
+  color: #e1306c;
+}
+
+#whatsapp {
+  font-size: 24px;
+  color: black;
+}
+
+#whatsapp:hover {
   color: rgb(0, 255, 0);
 }
