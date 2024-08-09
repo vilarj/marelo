@@ -18,12 +18,16 @@
 
 .price-usa {
   color: green;
-  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  font-style: oblique;
 }
 
 .price-rd {
   color: #ffb5b5;
-  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  font-style: oblique;
 }
 
 .menu-item:hover {

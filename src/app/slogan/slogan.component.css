@@ -3,12 +3,6 @@
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 4px solid #333;
-  width: 0;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   animation: typing 3.5s steps(40, end) forwards,
     remove-caret 0.1s forwards 3.6s;
 }
@@ -24,7 +18,7 @@
 
 @keyframes remove-caret {
   from {
-    border-right: 4px solid #333;
+    border-right: none;
   }
   to {
     border-right: none;
@@ -38,8 +32,6 @@
 @media (max-width: 600px) {
   .slogan-text {
     font-size: 18px;
-    white-space: normal;
     width: 100%;
-    border-right: 4px solid #333;
   }
 }
