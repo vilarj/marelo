@@ -20,16 +20,14 @@
 
 .price-usa {
   color: green;
-  font-family: "Noto Sans Symbols 2", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-style: oblique;
 }
 
 .price-rd {
   color: #ffb5b5;
-  font-family: "Noto Sans Symbols 2", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-style: oblique;
 }
 
 .menu-item:hover {
@@ -46,7 +44,7 @@
 }
 
 .menu-item-title {
-  font-size: 18px;
+  font-size: 17px;
   margin: 10px 0;
 }
 
