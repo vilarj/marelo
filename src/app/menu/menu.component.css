@@ -18,12 +18,6 @@
   transition: transform 0.8s;
 }
 
-.price-usa {
-  color: green;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-}
-
 .price-rd {
   color: #ffb5b5;
   font-family: "Inter", sans-serif;

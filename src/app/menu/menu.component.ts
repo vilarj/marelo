@@ -12,38 +12,32 @@ export class MenuComponent {
   menuItems = [
     {
       title: 'Tabla Fria en Envase de Caja',
-      priceUSD: 42,
       priceRD: 2500,
       image: 'assets/1.jpg',
     },
     {
       title: 'Canasta Picnic',
-      priceUSD: 49,
       priceRD: 2900,
       image: 'assets/2.jpg',
     },
     {
       title: 'Mini-Box',
-      priceUSD: 30,
       priceRD: 1800,
       image: 'assets/3.jpg',
     },
     {
-      title: 'Paquete 4',
-      priceUSD: 3.5,
-      priceRD: 195,
+      title: 'Special Box',
+      priceRD: 2000,
       image: 'assets/4.jpg',
     },
     {
-      title: 'Paquete 5',
-      priceUSD: 3.5,
-      priceRD: 196,
+      title: 'Bandeja Cilíndrica o Cuadrada',
+      priceRD: 4000,
       image: 'assets/5.jpg',
     },
     {
-      title: 'Paquete 6',
-      priceUSD: 3.5,
-      priceRD: 196,
+      title: 'Desayuno Amoroso',
+      priceRD: 4300,
       image: 'assets/6.jpg',
     },
   ];
