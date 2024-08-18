@@ -5,6 +5,7 @@
   overflow: hidden;
   animation: typing 3.5s steps(40, end) forwards,
     remove-caret 0.1s forwards 3.6s;
+  text-align: center;
 }
 
 @keyframes typing {
